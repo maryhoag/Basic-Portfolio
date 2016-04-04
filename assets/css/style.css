@@ -1,0 +1,96 @@
+
+body{
+	font: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.main {
+	width: 60%;
+	background-color: #ffffff;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+h1 h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+h2 {
+	color: #4aaaa5;
+	font-size: 24px;
+}
+.container {
+	/* This background provided by Alte Mo of subtlepatterns.com */
+	background-image: url(../images/fresh_snow/fresh_snow.png);
+	width: 960px;
+}
+
+.navbar {
+	float: left;
+	display: inline;
+	padding: 20px;
+	margin-left: 250px;
+}
+
+.navbar > li {
+	display: inline-block;
+	display: inline;
+	font-size: 75%;
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	
+}
+.me {
+	background-color: #4aaaa5;
+	color: white;
+	height: 50px;
+	width: 130px;
+	margin-left: 100px;
+	margin-top: 50px;
+	float: left;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+.sidebar {
+	width: 30%;
+	background-color: #ffffff;
+	float: right;
+	margin-left: 50px;
+	padding: 10px;
+}
+.image {
+	position: absolute;
+	left: 2000;
+	top: 200;
+	float: left;
+	overflow: auto;
+	margin: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+h2 span {
+	z-index: 100;
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 30px;
+	width: 200px;
+	color: white;
+}
+footer {
+	background-color: #666666;
+	overflow: auto;
+	width: 100%;
+	height: 50px;
+	font-size: 75%;
+	clear: both;
+}
