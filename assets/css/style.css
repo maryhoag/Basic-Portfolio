@@ -27,6 +27,7 @@ h2 {
 	display: inline;
 	padding: 20px;
 	margin-left: 250px;
+	clear: right;
 }
 
 .navbar > li {
@@ -37,15 +38,14 @@ h2 {
 
 header {
 	background-color: #ffffff;
-	border-width: 5px;
-	border-bottom: 100% solid #cccccc;
+	width: 100%;
 }
 
 .me {
 	background-color: #4aaaa5;
 	color: white;
 	height: 50px;
-	width: 200px;
+	width: 180px;
 	margin-left: 100px;
 	margin-top: 50px;
 	float: left;
@@ -60,9 +60,11 @@ header {
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 1px;
+	float: left;
+	clear: left;
 }
 aside {
-	float: right;
+	float: left;
 	width: 270px;
 	background-color: #ffffff;
 
@@ -88,7 +90,7 @@ h3 span {
 	z-index: 100;
 	position: absolute;
 	background-color: #4aaaa5;
-	height: 50px;
+	height: 40px;
 	width: 200px;
 	color: white;
 	font-size: 20px;
